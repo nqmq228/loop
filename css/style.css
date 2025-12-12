@@ -356,10 +356,9 @@ ul {
 }
 .navbar-toggler{
     display: none;
+    background: none;
 }
-.navbar-toggler{
-    display: none;
-}
+
 /*---------------------media queries --------------------------*/
 @media(max-width:768px) {
     .catalog {
@@ -375,6 +374,7 @@ ul {
     .man,
     .women {
         width: 100%;
+        padding: 15px;
     }
 
     .man-women {
